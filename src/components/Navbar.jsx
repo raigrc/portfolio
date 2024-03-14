@@ -29,31 +29,31 @@ const Navbar = () => {
           <ul className="px-1 menu menu-horizontal">
             <li>
               <NavLink
-                to='/' className={({ isActive }) => isActive ? "text-accent  font-semibold" : ""}>
+                to='/portfolio' className={({ isActive }) => isActive ? "text-accent  font-semibold" : ""}>
                 Home
               </NavLink>
             </li>
             <li>
               <NavLink
-                to='/about' className={({ isActive }) => isActive ? "text-accent  font-semibold" : ""}>
+                to='/portfolio/about' className={({ isActive }) => isActive ? "text-accent  font-semibold" : ""}>
                 About
               </NavLink>
             </li>
             <li>
               <NavLink
-                to='/skills' className={({ isActive }) => isActive ? "text-accent  font-semibold" : ""}>
+                to='/portfolio/skills' className={({ isActive }) => isActive ? "text-accent  font-semibold" : ""}>
                 Skills
               </NavLink>
             </li>
             <li>
               <NavLink
-                to='/projects' className={({ isActive }) => isActive ? "text-accent  font-semibold" : ""}>
+                to='/portfolio/projects' className={({ isActive }) => isActive ? "text-accent  font-semibold" : ""}>
                 Projects
               </NavLink>
             </li>
             <li>
               <NavLink
-                to='/contacts' className={({ isActive }) => isActive ? "text-accent  font-semibold" : ""}>
+                to='/portfolio/contacts' className={({ isActive }) => isActive ? "text-accent  font-semibold" : ""}>
                 Contacts
               </NavLink>
             </li>

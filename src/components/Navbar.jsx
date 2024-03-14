@@ -16,11 +16,11 @@ const Navbar = () => {
               <RiMenu2Fill className='w-6 h-6' />
             </div>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><Link to='/'>Home</Link></li>
-              <li><Link to='/about'>About</Link></li>
-              <li><Link to='/skills'>Skills</Link></li>
-              <li><Link to='/projects'>Projects</Link></li>
-              <li><Link to='/contacts'>Contacts</Link></li>
+              <li><Link to='/portfolio'>Home</Link></li>
+              <li><Link to='/portfolio/about'>About</Link></li>
+              <li><Link to='/portfolio/skills'>Skills</Link></li>
+              <li><Link to='/portfolio/projects'>Projects</Link></li>
+              <li><Link to='/portfolio/contacts'>Contacts</Link></li>
             </ul>
           </div>
           <Link to='/' className="flex items-center text-xl font-semibold cursor-pointer"><IoPersonCircleOutline className='mr-2' />Rai.<span className='text-primary'>Dev</span></Link>

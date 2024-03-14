@@ -9,27 +9,27 @@ import Layout from "./components/Layout";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/portfolio',
     element: <Layout />,
     children: [
       {
-        path: '/',
+        path: '/portfolio',
         element: <Banner />
       },
       {
-        path: '/about',
+        path: '/portfolio/about',
         element: <About />
       },
       {
-        path: '/skills',
+        path: '/portfolio/skills',
         element: <Skills />
       },
       {
-        path: '/projects',
+        path: '/portfolio/projects',
         element: <Projects />
       },
       {
-        path: '/contacts',
+        path: '/portfolio/contacts',
         element: <Contact />
       },
     ]
